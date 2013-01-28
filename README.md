@@ -20,3 +20,5 @@ For better performance, add jQuery core top of the page and add mediaEventsLogge
 As it's against the coding conventions (Adding scripts bottom of the page), But improves performance.
 Honeslty I'm saying it from my experience :)
 
+
+
