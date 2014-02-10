@@ -1,6 +1,19 @@
 <html>
-<head></head>
+<head>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="jQuery.mediaEventsLogger.js"></script>	
+</head>
 <body>
-This is the demo page for media event logger.
+	<audio controls id="test">
+		<source src="audio/vincent.ogg">
+		<source src="audio/vincent.mp3">
+	</audio>
+<script>
+	$.mediaEventsLogger({
+       popupLogginDirection:'up',//loggin direction(up or down)
+       consoleLogging: true,//enable console logging (true or false)
+       popupLogging:true //enable popup logging (true or false)
+    });
+</script>
 </body>
 </html>
