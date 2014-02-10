@@ -10,7 +10,7 @@ Add mediaEventsLogger plugin just below the jQuery plugin script.
 
     <script>
        $.mediaEventsLogger({
-       popupLogginDirection:'down',//loggin direction
+       popupLogginDirection:'down',//loggin direction(up or down)
        consoleLogging: false,//enable console logging (true or false)
        popupLogging:true //enable popup logging (true or false)
        });
