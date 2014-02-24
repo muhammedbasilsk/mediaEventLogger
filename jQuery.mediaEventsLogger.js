@@ -20,7 +20,7 @@
         var _createPopupWindow = function(){
             var popup = '<div id="mediaLoggerContainer">';
             popup += '<div id="mediaLoggerPopupActionBar" style="position:absolute;z-index:1000000;top:56px;'+
-            'left:100px;width:600px;height:44px;color:white;background:red;text-align:center">'+
+            'left:100px;width:600px;height:44px;color:white;background:#40cb90;text-align:center">'+
             '<span> media Logger </span>'+
             '<button style="float:right;width:44px;height:44px;" id="close">X</button>'+
             '<button style="float:right;width:44px;height:44px;" id="maximize">[ ]</button>'+
